@@ -24908,7 +24908,6 @@ textarea {
   list-style-type: none;
   display: block;
   font-size: 84%;
-  padding: 0.25rem;
   color: #4c555a;
   font-weight: 400;
 }
@@ -24995,7 +24994,7 @@ h6,
   fill: #8898aa;
 }
 
-.leftsidebar h1, .leftsidebar h2 .leftsidebar h3, .leftsidebar h4, .leftsidebar h5, .leftsidebar h6 {
+.leftsidebar h1, .leftsidebar h2, .leftsidebar h3, .leftsidebar h4, .leftsidebar h5, .leftsidebar h6 {
   display: block;
   margin-top: 1rem;
   padding: 0.25rem 1.5rem;
@@ -25009,8 +25008,7 @@ h6,
 }
 
 .leftsidebar p {
-  margin: 0 0 0 1.5em;
-  padding: 0 0 0 1.5em;
+  font-size: 0.875rem;
   line-height: 1.2;
 }
 
