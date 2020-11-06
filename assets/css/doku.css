@@ -24901,7 +24901,7 @@ textarea {
 #dw__login label[for=remember__me] {
   margin-left: unset !important;
 }
-.leftsidebar ul {
+.leftsidebar div ul {
   padding-left: 0 !important;
 }
 .leftsidebar .leftsidebar ul {
