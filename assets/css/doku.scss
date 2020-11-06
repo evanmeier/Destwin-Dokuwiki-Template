@@ -472,6 +472,7 @@ textarea {
 .leftsidebar {
     .leftsidebar ul {
         @extend .nav, .ct-sidenav;
+        padding-left: 0;
     }
     li {
         list-style-type: none;
@@ -484,10 +485,12 @@ textarea {
 
     a:link, a:visited {
         text-decoration: none;
-        color:#f47925;
+        color:#4c555a;
     }
     a:hover {
-        color: #dc6d21;
+        color: rgba(0, 0, 0, 0.85);
+        text-decoration: none;
+        background-color: transparent;
     }
 
 }
