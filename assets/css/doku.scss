@@ -8,6 +8,7 @@
 
 @import 'argon-design-system';
 
+
 // ------ General ------
 
 button {
@@ -214,7 +215,7 @@ textarea {
         }
           
         a:hover {
-            color:#5e72e4;
+            color:#f47925;
             text-decoration: none;
         }
 
@@ -247,6 +248,10 @@ textarea {
 }
 
 // ------ Navbar ------
+
+.ct-navbar {
+    background-color: #212537;
+}
 
 .header-title a {
     color: white;
@@ -479,10 +484,10 @@ textarea {
 
     a:link, a:visited {
         text-decoration: none;
-        color:#4c555a;
+        color:#f47925;
     }
     a:hover {
-        color: #212529;
+        color: #dc6d21;
     }
 
 }
