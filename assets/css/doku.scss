@@ -468,7 +468,9 @@ textarea {
 }
 
 // ------ Left Sidebar ------
-
+.leftsidebar ul{
+    padding-left: 0;
+}
 .leftsidebar {
     .leftsidebar ul {
         @extend .nav, .ct-sidenav;
