@@ -24762,7 +24762,7 @@ textarea {
 }
 
 .header-title a {
-  color: white;
+  color: #ffffff !important;
   font-weight: 600;
   font-size: 1.2rem;
 }
