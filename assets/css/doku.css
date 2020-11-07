@@ -24901,9 +24901,6 @@ textarea {
 #dw__login label[for=remember__me] {
   margin-left: unset !important;
 }
-.leftsidebar div ul {
-  padding-left: 0 !important;
-}
 .leftsidebar .leftsidebar ul {
   padding-left: 0;
 }
@@ -24987,6 +24984,11 @@ h6,
   font-size: 1rem;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+  color: #f47925;
+}
+
 .breadcrumb {
   font-size: 0.8rem;
   opacity: 0.75;
@@ -25008,6 +25010,10 @@ h6,
 .leftsidebar .ct-toc-link {
   margin-top: 2rem;
   margin-bottom: -0.5rem;
+}
+
+.leftsidebar uL {
+  padding-left: 0;
 }
 
 .leftsidebar p {
