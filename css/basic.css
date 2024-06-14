@@ -237,7 +237,8 @@ a:visited:active {
 
 /*____________ misc ____________*/
 
-img {
+img,
+svg { {
     border-width: 0;
     vertical-align: middle;
     color: #666;
@@ -247,6 +248,7 @@ img {
 }
 
 img,
+svg,
 object,
 embed,
 iframe,
@@ -262,7 +264,8 @@ iframe {
 
 /* IE8 and below won't display the images otherwise */
 #IE8 img,
-button img {
+button img,
+button svg  {
     max-width: none;
 }
 
