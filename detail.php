@@ -83,10 +83,13 @@ header('X-UA-Compatible: IE=edge,chrome=1');
                 </div>
             </div><!-- /.content -->
 
-            <p class="back">
-                <?php tpl_action('mediaManager', 1) ?><br />
-                &larr; <?php tpl_action('img_backto', 1) ?>
-            </p>
+            <ul>
+                <?php if (file_exists(DOKU_INC . 'inc/Menu/DetailMenu.php')) {
+                    echo (new \dokuwiki\Menu\DetailMenu())->getListItems('action ', false);
+                } else {
+                    _tpl_detailtools();
+                } ?>
+            </ul>
 
         <?php endif; ?>
     </div>
