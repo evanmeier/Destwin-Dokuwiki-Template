@@ -154,7 +154,6 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT == 'show');
                                     }
 
                                     ?>
-					<li><?php echo p_render('xhtml',p_get_instructions('{{NEWPAGE}}'),$info) ?></li>
                                 </ul>
                             </div>
 						</nav>
